@@ -1,0 +1,11 @@
+[project]
+name = "python-koans"
+version = "0.1.0"
+description = "Walk the path to Python enlightenment, one failing test at a time."
+requires-python = ">=3.14"
+authors = [{ name = "Python Koans" }]
+license = { text = "MIT" }
+readme = "README.md"
+
+[tool.python-koans]
+# No third-party dependencies. The standard library is your teacher.
