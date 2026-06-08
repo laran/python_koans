@@ -20,6 +20,17 @@ Each run:
 3. Tells you the file, line number, and what the assertion expected.
 4. Shows your progress bar.
 
+### Watch mode
+
+For a hands-free loop — edit, save, see the new state — pass `--watch`:
+
+```bash
+python3.14 contemplate_koans.py --watch
+```
+
+The screen clears and the koans re-run every time a file under `koans/` or
+`runner/` changes. Ctrl-C to stop. Add `--interval 0.2` to poll faster.
+
 ## The workflow
 
 Every koan is a `unittest`-style test. Many tests contain a placeholder named
